@@ -1,0 +1,70 @@
+.Footer {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	font-size: 12px;
+	color: #8a8d91;
+}
+
+.FooterContainer {
+	max-width: 980px;
+	flex: 1;
+	margin: auto;
+}
+
+.FooterLanguages {
+	display: flex;
+	padding-top: 8px;
+	list-style: none;
+	align-items: center;
+}
+
+.FooterLanguageItem {
+	padding-right: 10px;
+}
+
+.FooterLanguageItem:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.MoreLanguages {
+	padding: 0 8px;
+	border: 1px solid #CCD0D4;
+	border-radius: 2px;
+	font-size: 16px;
+	background-color: #F5F6F7;
+	color: #697280;
+}
+
+.MoreLanguages:hover {
+	cursor: pointer;
+	background-color: #eaeff3;
+}
+
+.separator {
+	border-top: 1px solid #DADDE1;
+	margin: 8px 0 10px;
+}
+
+.FooterFeatures {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -20px;
+}
+
+.FooterFeatureItem {
+	padding-left: 20px;
+	height: 19px;
+}
+
+.FooterFeatureItem:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.copyright {
+	margin: 20px 0;
+	height: 14px;
+}

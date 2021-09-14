@@ -1,0 +1,20 @@
+.LogoWrapper {
+	padding-right: 32px;
+	flex: 1;
+}
+
+.LogoImgWrapper {
+	padding: 112px 0 16px;
+}
+
+.LogoImg {
+	height: 106px;
+	margin: -28px;
+}
+
+.LogoSlogan {
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 32px;
+	width: 496px;
+}

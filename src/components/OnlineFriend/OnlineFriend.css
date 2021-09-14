@@ -1,0 +1,33 @@
+.OnlineFriend {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	padding: 8px 8px;
+	border-radius: 8px;
+	position: relative;
+}
+
+.OnlineFriendName {
+	font-size: 15px;
+	color: #e4e6eb;
+	margin-left: 12px;
+	font-weight: 500;
+}
+
+
+.OnlineFriendAvatar {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.OnlineNotation {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background-color: #30a24c;
+	border-radius: 50%;
+	bottom: 8px;
+	left: 34px;
+}

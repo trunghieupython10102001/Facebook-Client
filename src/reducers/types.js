@@ -1,0 +1,2 @@
+export const TOGGLE_CREATE_POST = 'TOGGLE_CREATE_POST'
+export const CREATE_POST = 'CREATE_POST'

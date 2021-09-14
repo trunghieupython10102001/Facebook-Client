@@ -1,0 +1,32 @@
+.Authen {
+	display: flex;
+	justify-content: center;
+	background: #EFF2F5;
+	padding: 72px 0px 112px;
+}
+
+.AuthenContainer {
+	max-width: 980px;
+	flex: 1;
+	margin: auto;
+	padding: 20px 0;
+	display: flex;
+}
+
+.registerPage {
+	width: 396px;
+	margin-top: 28px;
+	text-align: center;
+	font-size: 14px;
+	color: #1C1E21;
+}
+
+.registerPageLink {
+	text-decoration: none;
+	color: #1C1E21;
+	font-weight: 600;
+}
+
+.registerPageLink:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+:root {
+  --text-color: #e4e6eb;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.CreatePost {
+	overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.col-3 {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 12px;
+}
+
+.col-6 {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hover {
+  transition: background-color .08s ease-in-out;
+}
+
+.hover:hover {
+	background-color: #4d4d4e;	
+  cursor: pointer;
+}

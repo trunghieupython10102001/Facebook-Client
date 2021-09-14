@@ -1,0 +1,32 @@
+.Button {
+	border: none;
+	border-radius: 6px;
+	color: #fff;
+	margin-top: 6px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color .15s ease;
+}
+
+.ButtonWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.login {
+	background-color: #1A77F2;
+	width: 100%;
+}
+
+.login:hover {
+	background-color: #1768d3;
+}
+
+.register {
+	background-color: #42B829;
+	padding: 0px 16px;
+}
+
+.register:hover {
+	background-color: #23aa09;
+}

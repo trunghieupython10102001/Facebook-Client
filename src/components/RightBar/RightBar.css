@@ -1,0 +1,42 @@
+.RightBar {
+	padding-left: 16px;
+	position: sticky;
+	top: 56px;
+	overflow: scroll;
+	height: calc(100vh - 56px);
+	bottom: 0;
+}
+.RightBarHeader {
+	display: flex;
+	align-items: center;
+	margin-top: 16px;
+	justify-content: space-between;
+}
+
+.RightBarHeaderText {
+	font-size: 17px;
+	color: #b0b3b8;
+	font-weight: 500;
+	padding-left: 8px;
+}
+
+.boxWrapper {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4px;
+	margin-left: 12px;
+	border-radius: 50%;
+}
+
+.RightBarHeaderIcon {
+	color: #b0b3b8;
+	padding: 2px;
+	cursor: pointer;
+}
+
+.OnlineFriendList {
+	cursor: pointer;
+	padding-bottom: 16px;
+}
+

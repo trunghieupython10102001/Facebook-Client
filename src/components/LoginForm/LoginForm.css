@@ -1,0 +1,44 @@
+.AuthenForm {
+	margin-top: 40px;
+	background-color: #fff;
+	width: 396px;
+	padding: 10px 16px 24px;
+	-webkit-box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+}
+
+.forgot-password {
+	color: #1a77f2;
+	font-size: 14px;
+	margin-top: 16px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.forgot-password span:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.separate-line {
+border-top: 1px solid #dadde1;
+	margin: 20px 0;
+}
+
+.Input {
+	padding: 6px 0;
+}
+.LoginInput {
+	height: 52px;
+	padding: 14px 16px;
+	border: 1px solid #dcdfe2;
+	border-radius: 6px;
+	font-size: 17px;
+	outline: none;
+	width: 100%;
+}
+
+.LoginInput:focus {
+	border: 1px solid #1a77f2;
+}

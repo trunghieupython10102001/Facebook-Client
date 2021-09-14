@@ -1,0 +1,205 @@
+.CreatePost {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+}
+
+
+
+.modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+.CreatePostBox {
+	width: 500px;
+	max-width: 500px;
+	background-color: #242526;
+	border-radius: 12px;
+	z-index: 10;
+	color: var(--text-color);
+	display: flex;
+	flex-direction: column;
+}
+
+.CreatePostHeader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 60px;
+	border-bottom: 1px solid #2f3031;
+}
+
+.CreatePostHeaderText {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.CreatePostClose {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	right: 12px;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 6px;
+	border-radius: 50%;
+	color: #b0b3b8;
+	background-color: #3a3b3c;
+}
+
+.CreatePostUser {
+	display: flex;
+	align-items: center;
+	padding: 16px 0;
+	margin: 0 16px;
+}
+
+.CreatePostUserText {
+	margin-left: 4px;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.33333;
+}
+
+.CreatePostContent {
+	overflow: scroll;
+	padding: 0 16px 16px;
+	max-height: 400px;
+	min-height: 154px;
+}
+
+.CreatePostTextContent {
+	outline: none;
+	margin-bottom: 40px;
+}
+
+.CreatePostImage {
+	width: 100%;
+	border-radius: 8px;
+	border: 1px solid #3d4042;
+}
+
+.hidden {
+	display: none;
+}
+
+#imageInput {
+	display: none;
+}
+
+.CreatePostMediaContent {
+	position: relative;
+}
+
+.CreateMediaClose {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	right: 12px;
+	padding: 4px;
+	border-radius: 50%;
+	color: #b0b3b8;
+	background-color: #3a3b3c;
+	top: 16px;
+	right: 16px;
+}
+
+[contentEditable=true]:empty:before{
+    content:attr(data-text)
+}
+
+.CreatePostState {
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	color: var(--text-color);
+	font-weight: 700;
+	background-color: #3a3b3c;
+	border-radius: 4px;
+	padding-left: 2px;
+	margin-top: 4px;
+}
+
+.CreatePostStateIcon {
+	padding: 4px;
+}
+
+.CreatePostStateIconDrop {
+	padding: 2px;
+}
+
+.CreatePostAdd {
+	padding: 10px 12px;
+	border-radius: 8px;
+	border: 1px solid #3d4042;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 16px 16px 0;
+}
+
+.CreatePostAddIcons {
+	display: flex;
+	align-items: center;
+}
+
+.PostAddIconWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	padding: 6px;
+}
+
+#tag {
+	color: #1a77f2;
+}
+
+#location {
+	color: #f5543d;
+}
+
+#more {
+	color: #606770;
+}
+
+.CreatePostSubmit {
+	margin: 16px;
+}
+
+.CreatePostSubmitBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 36px;
+	border-radius: 8px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.disabled {
+	background-color: #505151;
+	color: #848585;
+}
+
+.actived {
+	background-color: #2d88ff;
+	color: #f2f7ff;
+	cursor: pointer;
+}
+

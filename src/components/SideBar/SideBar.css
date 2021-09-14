@@ -1,0 +1,41 @@
+.SideBar {
+	position: sticky;
+	top: 56px;
+	overflow: scroll;
+	height: calc(100vh - 56px);
+	bottom: 0;
+}
+
+.features {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding: 12px 0 8px;
+}
+
+.featuresItemAvatar {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.featuresItem {
+	display: flex;
+	align-items: center;
+	padding: 8px 8px;
+	border-radius: 8px;
+}
+
+.featuresItemImg {
+	min-width: 36px;
+	min-height: 36px;
+	object-fit: cover;
+	color: #1c87f4;
+}
+
+.featuresItemText {
+	font-size: 15px;
+	color: #e4e6eb;
+	margin-left: 12px;
+	font-weight: 500;
+}
